@@ -1,15 +1,135 @@
-2023-03-24T08:44:20.582+05:30  INFO 1468 --- [main] c.s.S.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 17.0.5 with PID 1468 (C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning\target\classes started by sreek in C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning)
-2023-03-24T08:44:20.584+05:30 DEBUG 1468 --- [main] c.s.S.SpringBootLearningApplication      : Running with Spring Boot v3.0.4, Spring v6.0.6
-2023-03-24T08:44:20.584+05:30  INFO 1468 --- [main] c.s.S.SpringBootLearningApplication      : The following 1 profile is active: "p1"
-2023-03-24T08:44:21.365+05:30  INFO 1468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-03-24T08:44:21.375+05:30  INFO 1468 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-03-24T08:44:21.375+05:30  INFO 1468 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-03-24T08:44:21.455+05:30  INFO 1468 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-03-24T08:44:21.456+05:30  INFO 1468 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 831 ms
-2023-03-24T08:44:21.762+05:30  INFO 1468 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-03-24T08:44:21.769+05:30  INFO 1468 --- [main] c.s.S.SpringBootLearningApplication      : Started SpringBootLearningApplication in 1.562 seconds (process running for 1.831)
-2023-03-24T08:44:25.951+05:30  INFO 1468 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-03-24T08:44:25.951+05:30  INFO 1468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-03-24T08:44:25.952+05:30  INFO 1468 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-03-24T08:44:25.978+05:30  INFO 1468 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name: World
-2023-03-24T08:44:25.980+05:30 TRACE 1468 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name2: World
+2023-03-28T07:17:54.452+05:30  INFO 9200 --- [main] c.s.S.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 17.0.5 with PID 9200 (C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning\target\classes started by sreek in C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning)
+2023-03-28T07:17:54.460+05:30 DEBUG 9200 --- [main] c.s.S.SpringBootLearningApplication      : Running with Spring Boot v3.0.4, Spring v6.0.6
+2023-03-28T07:17:54.461+05:30  INFO 9200 --- [main] c.s.S.SpringBootLearningApplication      : The following 1 profile is active: "p1"
+2023-03-28T07:17:55.349+05:30  INFO 9200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-28T07:17:55.358+05:30  INFO 9200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-28T07:17:55.358+05:30  INFO 9200 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-28T07:17:55.453+05:30  INFO 9200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-28T07:17:55.453+05:30  INFO 9200 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 944 ms
+2023-03-28T07:17:55.822+05:30  INFO 9200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-28T07:17:55.832+05:30  INFO 9200 --- [main] c.s.S.SpringBootLearningApplication      : Started SpringBootLearningApplication in 1.835 seconds (process running for 2.19)
+2023-03-28T07:18:14.375+05:30  INFO 9200 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28T07:18:14.375+05:30  INFO 9200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-28T07:18:14.375+05:30  INFO 9200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-28T07:18:14.407+05:30  INFO 9200 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name: World
+2023-03-28T07:19:05.204+05:30  INFO 16804 --- [main] c.s.S.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 17.0.5 with PID 16804 (C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning\target\classes started by sreek in C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning)
+2023-03-28T07:19:05.206+05:30 DEBUG 16804 --- [main] c.s.S.SpringBootLearningApplication      : Running with Spring Boot v3.0.4, Spring v6.0.6
+2023-03-28T07:19:05.206+05:30  INFO 16804 --- [main] c.s.S.SpringBootLearningApplication      : The following 1 profile is active: "p1"
+2023-03-28T07:19:06.004+05:30  INFO 16804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-28T07:19:06.012+05:30  INFO 16804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-28T07:19:06.012+05:30  INFO 16804 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-28T07:19:06.095+05:30  INFO 16804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-28T07:19:06.096+05:30  INFO 16804 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 852 ms
+2023-03-28T07:19:06.404+05:30  INFO 16804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-28T07:19:06.411+05:30  INFO 16804 --- [main] c.s.S.SpringBootLearningApplication      : Started SpringBootLearningApplication in 1.571 seconds (process running for 1.867)
+2023-03-28T07:19:08.056+05:30  INFO 16804 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28T07:19:08.056+05:30  INFO 16804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-28T07:19:08.057+05:30  INFO 16804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-28T07:19:08.084+05:30  INFO 16804 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name: World
+2023-03-28T07:19:08.085+05:30 TRACE 16804 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name2: World
+2023-03-28T07:23:19.851+05:30  INFO 436 --- [main] c.s.S.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 17.0.5 with PID 436 (C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning\target\classes started by sreek in C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning)
+2023-03-28T07:23:19.852+05:30 DEBUG 436 --- [main] c.s.S.SpringBootLearningApplication      : Running with Spring Boot v3.0.4, Spring v6.0.6
+2023-03-28T07:23:19.853+05:30  INFO 436 --- [main] c.s.S.SpringBootLearningApplication      : The following 1 profile is active: "p1"
+2023-03-28T07:23:20.735+05:30  INFO 436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-28T07:23:20.744+05:30  INFO 436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-28T07:23:20.744+05:30  INFO 436 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-28T07:23:20.834+05:30  INFO 436 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-28T07:23:20.834+05:30  INFO 436 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 938 ms
+2023-03-28T07:23:21.172+05:30  INFO 436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-28T07:23:21.181+05:30  INFO 436 --- [main] c.s.S.SpringBootLearningApplication      : Started SpringBootLearningApplication in 1.733 seconds (process running for 2.033)
+2023-03-28T07:23:27.345+05:30  INFO 436 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28T07:23:27.345+05:30  INFO 436 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-28T07:23:27.346+05:30  INFO 436 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-28T07:23:27.376+05:30  INFO 436 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name: World
+2023-03-28T07:23:27.377+05:30 TRACE 436 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name2: World
+2023-03-28T07:27:23.149+05:30  INFO 15776 --- [main] c.s.S.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 17.0.5 with PID 15776 (C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning\target\classes started by sreek in C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning)
+2023-03-28T07:27:23.151+05:30 DEBUG 15776 --- [main] c.s.S.SpringBootLearningApplication      : Running with Spring Boot v3.0.4, Spring v6.0.6
+2023-03-28T07:27:23.152+05:30  INFO 15776 --- [main] c.s.S.SpringBootLearningApplication      : The following 1 profile is active: "p1"
+2023-03-28T07:27:23.920+05:30  INFO 15776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-28T07:27:23.928+05:30  INFO 15776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-28T07:27:23.929+05:30  INFO 15776 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-28T07:27:24.010+05:30  INFO 15776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-28T07:27:24.010+05:30  INFO 15776 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 817 ms
+2023-03-28T07:27:24.045+05:30 DEBUG 15776 --- [main] c.s.S.filters.MDCFilter                  : Filter 'MDCFilter' configured for use
+2023-03-28T07:27:24.316+05:30  INFO 15776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-28T07:27:24.324+05:30  INFO 15776 --- [main] c.s.S.SpringBootLearningApplication      : Started SpringBootLearningApplication in 1.536 seconds (process running for 1.834)
+2023-03-28T07:27:25.567+05:30  INFO 15776 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28T07:27:25.568+05:30  INFO 15776 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-28T07:27:25.568+05:30  INFO 15776 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-28T07:27:25.597+05:30  INFO 15776 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name: World
+2023-03-28T07:27:25.598+05:30 TRACE 15776 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name2: World
+2023-03-28T07:28:13.125+05:30  INFO 16484 --- [main] c.s.S.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 17.0.5 with PID 16484 (C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning\target\classes started by sreek in C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning)
+2023-03-28T07:28:13.127+05:30 DEBUG 16484 --- [main] c.s.S.SpringBootLearningApplication      : Running with Spring Boot v3.0.4, Spring v6.0.6
+2023-03-28T07:28:13.127+05:30  INFO 16484 --- [main] c.s.S.SpringBootLearningApplication      : The following 1 profile is active: "p1"
+2023-03-28T07:28:13.910+05:30  INFO 16484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-28T07:28:13.917+05:30  INFO 16484 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-28T07:28:13.918+05:30  INFO 16484 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-28T07:28:14.000+05:30  INFO 16484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-28T07:28:14.001+05:30  INFO 16484 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 832 ms
+2023-03-28T07:28:14.039+05:30 DEBUG 16484 --- [main] c.s.S.filters.MDCFilter                  : Filter 'MDCFilter' configured for use
+2023-03-28T07:28:14.294+05:30  INFO 16484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-28T07:28:14.301+05:30  INFO 16484 --- [main] c.s.S.SpringBootLearningApplication      : Started SpringBootLearningApplication in 1.568 seconds (process running for 1.856)
+2023-03-28T07:28:19.008+05:30  INFO 16484 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28T07:28:19.010+05:30  INFO 16484 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-28T07:28:19.010+05:30  INFO 16484 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-28T07:28:19.034+05:30  INFO 16484 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name: World
+2023-03-28T07:28:19.035+05:30 TRACE 16484 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name2: World
+2023-03-28T07:30:57.127+05:30  INFO 17180 --- [main] c.s.S.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 17.0.5 with PID 17180 (C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning\target\classes started by sreek in C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning)
+2023-03-28T07:30:57.129+05:30 DEBUG 17180 --- [main] c.s.S.SpringBootLearningApplication      : Running with Spring Boot v3.0.4, Spring v6.0.6
+2023-03-28T07:30:57.129+05:30  INFO 17180 --- [main] c.s.S.SpringBootLearningApplication      : The following 1 profile is active: "p1"
+2023-03-28T07:30:57.997+05:30  INFO 17180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-28T07:30:58.006+05:30  INFO 17180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-28T07:30:58.006+05:30  INFO 17180 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-28T07:30:58.095+05:30  INFO 17180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-28T07:30:58.095+05:30  INFO 17180 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 912 ms
+2023-03-28T07:30:58.134+05:30 DEBUG 17180 --- [main] c.s.S.filters.MDCFilter                  : Filter 'MDCFilter' configured for use
+2023-03-28T07:30:58.423+05:30  INFO 17180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-28T07:30:58.431+05:30  INFO 17180 --- [main] c.s.S.SpringBootLearningApplication      : Started SpringBootLearningApplication in 1.719 seconds (process running for 2.068)
+2023-03-28T07:31:12.891+05:30  INFO 17180 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28T07:31:12.891+05:30  INFO 17180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-28T07:31:12.892+05:30  INFO 17180 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-28T07:31:12.918+05:30  INFO 17180 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name: World
+2023-03-28T07:31:12.919+05:30 TRACE 17180 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name2: World
+2023-03-28T07:32:01.571+05:30  INFO 17340 --- [main] c.s.S.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 17.0.5 with PID 17340 (C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning\target\classes started by sreek in C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning)
+2023-03-28T07:32:01.573+05:30 DEBUG 17340 --- [main] c.s.S.SpringBootLearningApplication      : Running with Spring Boot v3.0.4, Spring v6.0.6
+2023-03-28T07:32:01.573+05:30  INFO 17340 --- [main] c.s.S.SpringBootLearningApplication      : The following 1 profile is active: "p1"
+2023-03-28T07:32:02.451+05:30  INFO 17340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-28T07:32:02.460+05:30  INFO 17340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-28T07:32:02.460+05:30  INFO 17340 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-28T07:32:02.550+05:30  INFO 17340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-28T07:32:02.550+05:30  INFO 17340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 926 ms
+2023-03-28T07:32:02.592+05:30 DEBUG 17340 --- [main] c.s.S.filters.MDCFilter                  : Filter 'MDCFilter' configured for use
+2023-03-28T07:32:02.905+05:30  INFO 17340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-28T07:32:02.915+05:30  INFO 17340 --- [main] c.s.S.SpringBootLearningApplication      : Started SpringBootLearningApplication in 1.749 seconds (process running for 2.118)
+2023-03-28T07:32:07.013+05:30  INFO 17340 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28T07:32:07.013+05:30  INFO 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-28T07:32:07.014+05:30  INFO 17340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-28T07:32:07.041+05:30  INFO 17340 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name: World
+2023-03-28T07:32:07.042+05:30 TRACE 17340 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name2: World
+2023-03-28T07:37:30.000+05:30  INFO 15032 --- [main] c.s.S.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 17.0.5 with PID 15032 (C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning\target\classes started by sreek in C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning)
+2023-03-28T07:37:30.002+05:30 DEBUG 15032 --- [main] c.s.S.SpringBootLearningApplication      : Running with Spring Boot v3.0.4, Spring v6.0.6
+2023-03-28T07:37:30.003+05:30  INFO 15032 --- [main] c.s.S.SpringBootLearningApplication      : The following 1 profile is active: "p1"
+2023-03-28T07:37:30.856+05:30  INFO 15032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-28T07:37:30.864+05:30  INFO 15032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-28T07:37:30.865+05:30  INFO 15032 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-28T07:37:30.952+05:30  INFO 15032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-28T07:37:30.952+05:30  INFO 15032 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 898 ms
+2023-03-28T07:37:30.991+05:30 DEBUG 15032 --- [main] c.s.S.filters.MDCFilter                  : Filter 'MDCFilter' configured for use
+2023-03-28T07:37:31.292+05:30  INFO 15032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-28T07:37:31.301+05:30  INFO 15032 --- [main] c.s.S.SpringBootLearningApplication      : Started SpringBootLearningApplication in 1.7 seconds (process running for 2.021)
+2023-03-28T07:45:36.864+05:30  INFO 7840 --- [main] c.s.S.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 17.0.5 with PID 7840 (C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning\target\classes started by sreek in C:\Users\sreek\Documents\Projects\BackEnd\Learning\Spring-boot-learning)
+2023-03-28T07:45:36.866+05:30 DEBUG 7840 --- [main] c.s.S.SpringBootLearningApplication      : Running with Spring Boot v3.0.4, Spring v6.0.6
+2023-03-28T07:45:36.867+05:30  INFO 7840 --- [main] c.s.S.SpringBootLearningApplication      : The following 1 profile is active: "p1"
+2023-03-28T07:45:37.759+05:30  INFO 7840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-28T07:45:37.768+05:30  INFO 7840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-28T07:45:37.768+05:30  INFO 7840 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-28T07:45:37.856+05:30  INFO 7840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-28T07:45:37.856+05:30  INFO 7840 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 937 ms
+2023-03-28T07:45:37.895+05:30 DEBUG 7840 --- [main] c.s.S.filters.MDCFilter                  : Filter 'MDCFilter' configured for use
+2023-03-28T07:45:38.192+05:30  INFO 7840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-28T07:45:38.200+05:30  INFO 7840 --- [main] c.s.S.SpringBootLearningApplication      : Started SpringBootLearningApplication in 1.758 seconds (process running for 2.077)
+2023-03-28T07:46:54.944+05:30  INFO 7840 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-28T07:46:54.944+05:30  INFO 7840 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-28T07:46:54.945+05:30  INFO 7840 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-28T07:46:54.973+05:30  INFO 7840 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name: World
+2023-03-28T07:46:54.974+05:30 TRACE 7840 --- [http-nio-8080-exec-1] c.s.S.controller.DemoController          : Name2: World

@@ -2,6 +2,7 @@ package com.sreek.Springbootlearning.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.slf4j.MDC;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,8 +20,7 @@ public class DemoController {
         logger.info("Name: {}", name);
         logger.trace("Name2: {}", name);
 
-        return Map.of("greeting", "Hello " + name   );
-
+        return Map.of("greeting", "Hello " + name);
     }
 
 }
