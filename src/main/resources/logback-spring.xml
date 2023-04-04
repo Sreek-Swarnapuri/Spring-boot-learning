@@ -1,0 +1,27 @@
+<configuration>
+
+    <springProperty scope="context" name="region" source="app.region" default-value="us-east-1" />
+
+    <property name="LOG_FILE" value="${region}-myapp.log" />
+
+    <include resource="org/springframework/boot/logging/logback/defaults.xml" />
+    <include resource="org/springframework/boot/logging/logback/console-appender.xml" />
+    <include resource="org/springframework/boot/logging/logback/file-appender.xml" />
+
+    <springProfile name="!p1">
+        <root level="INFO">
+            <appender-ref ref="CONSOLE" />
+        </root>
+    </springProfile>
+
+    <springProfile name="p1">
+        <root level="INFO">
+            <appender-ref ref="FILE" />
+            <appender-ref ref="CONSOLE" />
+        </root>
+    </springProfile>
+
+    <logger name ="com.sreek" level="DEBUG" />
+    <logger name ="org.springframework" level="INFO" />
+
+</configuration>
