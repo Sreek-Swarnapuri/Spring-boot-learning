@@ -25,7 +25,7 @@ class AppInitializer implements CommandLineRunner {
 	private ApplicationProperties properties;
 
 	@Override
-	public void run(String... args) throws Exception {
+	public void run(String... args) {
 		System.out.println("Application properties: " + properties);
 	}
 }
